@@ -20,9 +20,7 @@ DIVE is a lightweight, client-side React application that parses and visualises 
 ## Getting Started
 
 ### Option 1 — Use it in the browser
-Drop your `.twb` file onto the upload area or click **Choose File**. DIVE will parse and render the workbook instantly.
-
-> ⚠️ Only unpackaged `.twb` files are supported. If you have a `.twbx` file, rename it to `.zip`, extract it, and use the `.twb` file inside.
+Drop your `.twb` or 'twbx' file onto the upload area or click **Choose File**. DIVE will parse and render the workbook instantly.
 
 ### Option 2 — Load the sample workbook
 Click **"or load a sample workbook →"** on the landing page to explore a pre-built demo with multiple datasources, dashboards, worksheets, and seeded issues.
