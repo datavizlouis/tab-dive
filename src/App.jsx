@@ -685,10 +685,21 @@ export default function App(){
         </div>
         {err&&<p style={{marginTop:16,color:T.red,fontSize:12}}>{err}</p>}
         <div style={{marginTop:16,background:"#000",borderRadius:12,padding:"14px 20px",display:"flex",flexDirection:"column",alignItems:"center",gap:10}}>
-          <span style={{color:"#fff",fontSize:16,fontWeight:500,letterSpacing:"0.03em"}}><strong style={{color:T.green}}>Created by 2KBI</strong></span>
-          <a href="mailto:louis.yu@2k.com" title="Email" style={{color:"#ccc",display:"flex",alignItems:"center",transition:"color .15s"}} onMouseEnter={e=>e.currentTarget.style.color="#fff"} onMouseLeave={e=>e.currentTarget.style.color="#ccc"}>
+          <span style={{color:"#fff",fontSize:12,fontWeight:500,letterSpacing:"0.03em"}}>Created by Louis Yu</span>
+          <div style={{display:"flex",gap:20,alignItems:"center"}}>
+            <a href="https://datavizlouis.webflow.io/" target="_blank" rel="noreferrer" title="Website" style={{color:"#ccc",display:"flex",alignItems:"center",transition:"color .15s"}} onMouseEnter={e=>e.currentTarget.style.color="#fff"} onMouseLeave={e=>e.currentTarget.style.color="#ccc"}>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/yulouis/" target="_blank" rel="noreferrer" title="LinkedIn" style={{color:"#ccc",display:"flex",alignItems:"center",transition:"color .15s"}} onMouseEnter={e=>e.currentTarget.style.color="#fff"} onMouseLeave={e=>e.currentTarget.style.color="#ccc"}>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="https://public.tableau.com/app/profile/louisyu/vizzes" target="_blank" rel="noreferrer" title="Tableau Public" style={{color:"#ccc",display:"flex",alignItems:"center",transition:"color .15s"}} onMouseEnter={e=>e.currentTarget.style.color="#fff"} onMouseLeave={e=>e.currentTarget.style.color="#ccc"}>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="12" width="4" height="9"/><rect x="10" y="7" width="4" height="14"/><rect x="17" y="3" width="4" height="18"/></svg>
+            </a>
+            <a href="mailto:datavizlouis@outlook.com" title="Email" style={{color:"#ccc",display:"flex",alignItems:"center",transition:"color .15s"}} onMouseEnter={e=>e.currentTarget.style.color="#fff"} onMouseLeave={e=>e.currentTarget.style.color="#ccc"}>
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-               &nbsp;&nbsp;<span style={{color:"#fff",fontSize:12,fontWeight:500,letterSpacing:"0.03em"}}>Contact us if you face any issues</span></a>
+            </a>
+          </div>
         </div>
       </div>
     </div>
